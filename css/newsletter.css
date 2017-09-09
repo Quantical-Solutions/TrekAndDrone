@@ -1,0 +1,77 @@
+body {
+	background: wheat;
+  	background: -webkit-linear-gradient(white, wheat, black);
+  	background: -o-linear-gradient(white, wheat, black);
+  	background: -moz-linear-gradient(white, wheat, black);
+  	background: linear-gradient(white, wheat, black);
+	box-sizing: border-box;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-family: 'Passion One', cursive;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 2em;
+	font-style: italic;
+	color: darkred;
+}
+
+p, a, h2, h3, h4 {
+	font-family: 'Raleway', cursive;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+	font-style: italic;
+}
+
+span {
+	color: orange;
+	font-style: italic;
+}
+
+a:hover {
+	color: red;
+}
+
+#header {
+	background-image: url(http://www.trekandrone.com/img/desert.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#header img {
+	width: 60%;
+}
+
+#contenu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 10px 30px;
+}
+
+#footer {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 60px;
+	margin-bottom: 60px;
+}
+
